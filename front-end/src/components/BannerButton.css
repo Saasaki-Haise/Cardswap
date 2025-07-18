@@ -1,0 +1,22 @@
+.custom-button {
+  font-family: "Segoe UI", sans-serif;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  background-color: #888;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  user-select: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 8px 0;
+}
+
+.custom-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
