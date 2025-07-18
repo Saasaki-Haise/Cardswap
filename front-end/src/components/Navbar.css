@@ -1,0 +1,30 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.navbar .bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.navbar img.plus {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar img.search, .navbar img.message {
+    width: 35px;
+    height: 35px;
+}

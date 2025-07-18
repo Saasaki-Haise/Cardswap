@@ -1,0 +1,10 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: linear-gradient(to top, white 20%, transparent 80%), url('../assets/img/banner.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}

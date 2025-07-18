@@ -1,0 +1,49 @@
+.bannerCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    width: 95%;
+}
+
+.card {
+    font-family: "Segoe UI", sans-serif;
+    background-color: rgb(25, 100, 126, 55%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.card-echange {
+    margin-top: -100px !important;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card img {
+    height: 100px;
+}
+
+.collectionne {
+    height: 90px !important;
+}
+
+.card .title-card {
+    margin-top: -10px !important;
+}
+
+.card p {
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 5px;
+}
